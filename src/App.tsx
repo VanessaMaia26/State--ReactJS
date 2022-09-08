@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const App = () => {
-    const [numero, setName] = useState('Vanessa');
+    const [name, setName] = useState('Vanessa');
 
     const handleButtonClick = () => {
         setName('Vanessa');
